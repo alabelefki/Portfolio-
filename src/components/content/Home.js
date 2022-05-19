@@ -15,6 +15,7 @@ function Home() {
     <div className='home'>
         <BackgroundAnimation />
 
+            <div className='info'>
             <h2>Hi, I am Ala Belefki</h2>
             <p>
                 <TypeWriterEffect
@@ -42,6 +43,7 @@ function Home() {
             <NavLink to="/about"><button className='btn-download'>Download Resume</button></NavLink> 
             <NavLink  to="/contact"><button className='btn-contact'>Contact Me</button></NavLink>
             </nav>
+            </div>
         </div>
 
     
